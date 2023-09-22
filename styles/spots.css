@@ -1,0 +1,14 @@
+aside {
+  display: flex;
+  align-items: center;
+  padding: 2em;
+}
+
+.container {
+  display: flex;
+  gap: 2em;
+  margin: 2em;
+  padding: 2em;
+  background-color: rgb(250, 250, 250);
+  border-radius: 12px;
+}
