@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  gap: 4em;
+}
+
+section {
+  flex: 1;
+  margin: 2em;
+  padding: 2em;
+  background-color: rgb(250, 250, 250);
+  border-radius: 12px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  gap: 2em;
+  margin: 2em;
+}
+
+aside > .item {
+  text-align: center;
+  padding: 2em;
+  margin: 0;
+  background-color: rgb(250, 250, 250);
+  border-radius: 12px;
+}
