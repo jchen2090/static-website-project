@@ -4,6 +4,7 @@
 }
 
 section {
+  height: fit-content;
   flex: 1;
   margin: 2em;
   padding: 2em;
@@ -11,17 +12,23 @@ section {
   border-radius: 12px;
 }
 
+img {
+  object-fit: cover;
+}
+
 aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   flex: 1;
   gap: 2em;
   margin: 2em;
 }
 
 aside > .item {
-  text-align: center;
+  width: fit-content;
+  font-size: 12px;
   padding: 2em;
   margin: 0;
   background-color: rgb(250, 250, 250);
