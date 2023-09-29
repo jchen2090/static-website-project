@@ -11,6 +11,10 @@
   gap: 4em;
 }
 
+.section-container > * {
+  flex: 1;
+}
+
 .sub-section-container {
   padding: 2em;
   border-radius: 12px;
