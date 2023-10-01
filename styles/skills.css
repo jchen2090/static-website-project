@@ -1,9 +1,10 @@
 .container {
   display: flex;
+  flex-direction: column;
   gap: 4em;
 }
 
-section {
+article {
   height: fit-content;
   flex: 1;
   margin: 2em;
@@ -16,14 +17,13 @@ img {
   object-fit: cover;
 }
 
-aside {
+.image-container {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  flex: 1;
   gap: 2em;
-  margin: 2em;
+  padding: 2em;
 }
 
 aside > .item {
